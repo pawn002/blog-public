@@ -3,42 +3,42 @@
 	
 		
 		<url>
-			<loc>/blog/about/</loc>
+			<loc>/blog-public/about/</loc>
 			<lastmod>2025-10-01</lastmod>
 		</url>
 	
 	
 		
 		<url>
-			<loc>/blog/</loc>
+			<loc>/blog-public/blog/</loc>
 			<lastmod>2025-10-01</lastmod>
 		</url>
 	
 	
 		
 		<url>
-			<loc>/blog/</loc>
+			<loc>/blog-public/</loc>
 			<lastmod>2025-10-01</lastmod>
 		</url>
 	
 	
 		
 		<url>
-			<loc>/blog/tags/</loc>
+			<loc>/blog-public/tags/</loc>
 			<lastmod>2025-10-01</lastmod>
 		</url>
 	
 	
 		
 		<url>
-			<loc>/blog/blog/firstpost/</loc>
+			<loc>/blog-public/blog/firstpost/</loc>
 			<lastmod>2025-10-14</lastmod>
 		</url>
 	
 	
 		
 		<url>
-			<loc>/blog/feed/feed.xml</loc>
+			<loc>/blog-public/feed/feed.xml</loc>
 			<lastmod>2025-10-14</lastmod>
 		</url>
 	

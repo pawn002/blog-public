@@ -3,18 +3,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Blog Title</title>
   <subtitle>This is a longer description about your blog.</subtitle>
-  <link href="https://example.com/blog/feed/feed.xml" rel="self" />
-  <link href="https://example.com/blog/" />
+  <link href="https://example.com/blog-public/feed/feed.xml" rel="self" />
+  <link href="https://example.com/blog-public/" />
   <updated>2025-10-14T00:00:00Z</updated>
-  <id>https://example.com/blog/</id>
+  <id>https://example.com/blog-public/</id>
   <author>
     <name>Your Name</name>
   </author>
   <entry>
     <title>Good Day to All!</title>
-    <link href="https://example.com/blog/blog/firstpost/" />
+    <link href="https://example.com/blog-public/blog/firstpost/" />
     <updated>2025-10-14T00:00:00Z</updated>
-    <id>https://example.com/blog/blog/firstpost/</id>
+    <id>https://example.com/blog-public/blog/firstpost/</id>
     <content type="html">&lt;p&gt;Welcome the blog!&lt;/p&gt;
 &lt;p&gt;This site is very much under construction, so this post is a shortie.&lt;/p&gt;
 &lt;p&gt;There is a lot of upheaval across diverse domains right now. I find spaces like this present a rich opportunity space.&lt;/p&gt;
