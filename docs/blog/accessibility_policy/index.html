@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>pawn002 Blog</title>
-		<meta name="description" content="Cross disciplinary writing bringing together technology, art, and life.">
+		<title>Blog Accessibility Policy</title>
+		<meta name="description" content="Pawn002 blog accessibility policy">
 		<link rel="alternate" href="/blog-public/feed/feed.xml" type="application/atom+xml" title="pawn002 Blog">
 		
 		
@@ -314,6 +314,174 @@ header {
 .post-metadata time {
 	margin-right: 1em;
 }
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 		</style>
 		
 	</head>
@@ -344,20 +512,60 @@ header {
 		<main id="main">
 			<heading-anchors>
 				
-<h1 id="content-not-found">Content not found</h1>
-<p>Go <a href="/blog-public/">home</a>.</p>
-<!--
 
-Read more: https://www.11ty.dev/docs/quicktips/not-found/
 
-This is compatible with:
+<h1 id="blog-accessibility-policy">Blog Accessibility Policy</h1>
 
-- GitHub Pages: https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/
-- GitLab Pages: https://docs.gitlab.com/ee/user/project/pages/introduction.html#custom-error-codes-pages
-- Netlify: https://www.netlify.com/docs/redirects/#custom-404
-- Cloudflare Pages: https://developers.cloudflare.com/pages/platform/serving-pages/#not-found-behavior
-- Vercel: https://vercel.com/guides/custom-404-page#static-site-generator-ssg
--->
+<ul class="post-metadata">
+	<li>
+		<time datetime="2025-10-16">16 October 2025</time>
+	</li>
+		<li>
+			<a href="/blog-public/tags/moral-leadership/" class="post-tag">Moral-Leadership</a>, 
+		</li>
+		<li>
+			<a href="/blog-public/tags/policy-analysis/" class="post-tag"> Policy-Analysis</a>, 
+		</li>
+		<li>
+			<a href="/blog-public/tags/principal-level/" class="post-tag"> Principal-Level</a>, 
+		</li>
+		<li>
+			<a href="/blog-public/tags/inclusive-design/" class="post-tag"> Inclusive-Design</a>, 
+		</li>
+		<li>
+			<a href="/blog-public/tags/design-strategy/" class="post-tag"> Design-Strategy</a>, 
+		</li>
+		<li>
+			<a href="/blog-public/tags/wcag-compliance/" class="post-tag"> WCAG-Compliance</a>, 
+		</li>
+		<li>
+			<a href="/blog-public/tags/foresight-consulting/" class="post-tag"> Foresight-Consulting</a>, 
+		</li>
+		<li>
+			<a href="/blog-public/tags/product-architecture/" class="post-tag"> Product-Architecture</a>
+		</li>
+</ul>
+
+<p><em>Effective Date: 16 October 2025</em></p>
+<p>At pawn002 Blog, we are committed to ensuring that our website is accessible to all users, regardless of their abilities or disabilities. We strive to create an inclusive online environment and take the following measures to enhance accessibility:</p>
+<h2 id="1-commitment-to-accessibility">1. Commitment to Accessibility</h2>
+<p>We believe that everyone should have equal access to information and services provided on our blog. We have made extensive efforts to ensure that our website meets the standards set forth by the Web Content Accessibility Guidelines (WCAG) 2.1 at level AA.</p>
+<h2 id="2-accessibility-features">2. Accessibility Features</h2>
+<ul>
+<li>Responsive Design: Our site is designed to be usable on a variety of devices and screen sizes, ensuring that content is easily accessible on smartphones, tablets, and desktop computers.</li>
+<li>Alternative Text for Images: All images on our blog include descriptive alternative text to provide context for visually impaired users.</li>
+<li>Keyboard Navigation: Our site is navigable using keyboard shortcuts, allowing users who rely on keyboards to access all functionalities.</li>
+<li>Readable Fonts and Colors: We use readable fonts, proper contrast ratios, and color palettes to aid visibility and readability for all users.</li>
+</ul>
+<h2 id="3-continuous-improvement">3. Continuous Improvement</h2>
+<p>We recognize that accessibility is an ongoing process. Therefore, we are committed to regularly reviewing and updating our site to address any gaps in meeting user needs. We strive to stay informed about the best practices and technologies that enhance web accessibility.</p>
+<h2 id="4-feedback-mechanism">4. Feedback Mechanism</h2>
+<p>We value your feedback and encourage users to share their experiences regarding accessibility on our site. If you encounter any barriers or have suggestions for improvement, please <a href="/blog-public/about/#contact-information">contact us</a>. We will take all feedback seriously and work diligently to address any identified issues.</p>
+<h2 id="5-contact-information">5. Contact Information</h2>
+<p>For any questions, concerns, or feedback related to accessibility, please <a href="/blog-public/about/#contact-information">contact us</a>. We appreciate your input and are committed to making our site better for everyone.</p>
+<hr>
+<p>By using our blog, you acknowledge our commitment to accessibility and agree to our policies. Thank you for being part of our community and helping us create an inclusive space for all users.</p>
+
 
 
 			</heading-anchors>
@@ -384,7 +592,7 @@ This is compatible with:
 			</ul>
 		</footer>
 
-		<!-- This page `/404.html` was built on 2025-10-15T21:14:56.462Z -->
+		<!-- This page `/blog/accessibility_policy/` was built on 2025-10-15T21:14:56.462Z -->
 		<script type="module" src="/blog-public/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

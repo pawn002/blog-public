@@ -1,20 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <title>Blog Title</title>
-  <subtitle>This is a longer description about your blog.</subtitle>
-  <link href="https://example.com/blog-public/feed/feed.xml" rel="self" />
-  <link href="https://example.com/blog-public/" />
-  <updated>2025-10-14T00:00:00Z</updated>
-  <id>https://example.com/blog-public/</id>
+  <title>pawn002&#39;s Blog</title>
+  <subtitle>Design integration, accessibility advocacy, and ethical AI strategy</subtitle>
+  <link href="https://pawn002.github.io/blog-public/feed/feed.xml" rel="self" />
+  <link href="https://pawn002.github.io/blog-public/blog-public/" />
+  <updated>2025-10-16T00:00:00Z</updated>
+  <id>https://pawn002.github.io/blog-public/blog-public/</id>
   <author>
-    <name>Your Name</name>
+    <name>John Rioflorido</name>
   </author>
   <entry>
+    <title>Blog Accessibility Policy</title>
+    <link href="https://pawn002.github.io/blog-public/blog/accessibility_policy/" />
+    <updated>2025-10-16T00:00:00Z</updated>
+    <id>https://pawn002.github.io/blog-public/blog/accessibility_policy/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;Effective Date: 16 October 2025&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;At pawn002 Blog, we are committed to ensuring that our website is accessible to all users, regardless of their abilities or disabilities. We strive to create an inclusive online environment and take the following measures to enhance accessibility:&lt;/p&gt;
+&lt;h2 id=&quot;1-commitment-to-accessibility&quot;&gt;1. Commitment to Accessibility&lt;/h2&gt;
+&lt;p&gt;We believe that everyone should have equal access to information and services provided on our blog. We have made extensive efforts to ensure that our website meets the standards set forth by the Web Content Accessibility Guidelines (WCAG) 2.1 at level AA.&lt;/p&gt;
+&lt;h2 id=&quot;2-accessibility-features&quot;&gt;2. Accessibility Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Responsive Design: Our site is designed to be usable on a variety of devices and screen sizes, ensuring that content is easily accessible on smartphones, tablets, and desktop computers.&lt;/li&gt;
+&lt;li&gt;Alternative Text for Images: All images on our blog include descriptive alternative text to provide context for visually impaired users.&lt;/li&gt;
+&lt;li&gt;Keyboard Navigation: Our site is navigable using keyboard shortcuts, allowing users who rely on keyboards to access all functionalities.&lt;/li&gt;
+&lt;li&gt;Readable Fonts and Colors: We use readable fonts, proper contrast ratios, and color palettes to aid visibility and readability for all users.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;3-continuous-improvement&quot;&gt;3. Continuous Improvement&lt;/h2&gt;
+&lt;p&gt;We recognize that accessibility is an ongoing process. Therefore, we are committed to regularly reviewing and updating our site to address any gaps in meeting user needs. We strive to stay informed about the best practices and technologies that enhance web accessibility.&lt;/p&gt;
+&lt;h2 id=&quot;4-feedback-mechanism&quot;&gt;4. Feedback Mechanism&lt;/h2&gt;
+&lt;p&gt;We value your feedback and encourage users to share their experiences regarding accessibility on our site. If you encounter any barriers or have suggestions for improvement, please &lt;a href=&quot;https://pawn002.github.io/blog-public/about/#contact-information&quot;&gt;contact us&lt;/a&gt;. We will take all feedback seriously and work diligently to address any identified issues.&lt;/p&gt;
+&lt;h2 id=&quot;5-contact-information&quot;&gt;5. Contact Information&lt;/h2&gt;
+&lt;p&gt;For any questions, concerns, or feedback related to accessibility, please &lt;a href=&quot;https://pawn002.github.io/blog-public/about/#contact-information&quot;&gt;contact us&lt;/a&gt;. We appreciate your input and are committed to making our site better for everyone.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;By using our blog, you acknowledge our commitment to accessibility and agree to our policies. Thank you for being part of our community and helping us create an inclusive space for all users.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Blog Privacy Policy</title>
+    <link href="https://pawn002.github.io/blog-public/blog/privacy_policy/" />
+    <updated>2025-10-15T00:00:00Z</updated>
+    <id>https://pawn002.github.io/blog-public/blog/privacy_policy/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;Effective Date: 15 October 2025&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This Privacy Policy outlines how we handle the information provided by readers of this blog. Your privacy is important, and we are committed to protecting any information you share with us.&lt;/p&gt;
+&lt;h2 id=&quot;1-information-we-collect&quot;&gt;1. Information We Collect&lt;/h2&gt;
+&lt;p&gt;The only information we collect is feedback from readers. This may include comments, suggestions, or any inquiries you choose to submit through the contact information provided. We do not collect personal data or actively track any user information.&lt;/p&gt;
+&lt;h2 id=&quot;2-use-of-information&quot;&gt;2. Use of Information&lt;/h2&gt;
+&lt;p&gt;The feedback received may be utilized to revise and enhance the blog&#39;s posts and policies. We may review and analyze the comments to improve the quality and relevance of our content. However, this feedback will not be shared with any third parties without your consent.&lt;/p&gt;
+&lt;h2 id=&quot;3-data-retention&quot;&gt;3. Data Retention&lt;/h2&gt;
+&lt;p&gt;Any feedback submitted will be retained for as long as necessary to achieve the purpose for which it was collected. Once it is no longer needed, we will securely delete or anonymize the data.&lt;/p&gt;
+&lt;h2 id=&quot;4-cookies-and-tracking&quot;&gt;4. Cookies and Tracking&lt;/h2&gt;
+&lt;p&gt;This blog does not use cookies or other tracking technologies to monitor user behavior or collect data. Your browsing experience will not be affected by any tracking or data collection practices.&lt;/p&gt;
+&lt;h2 id=&quot;5-third-party-links&quot;&gt;5. Third-Party Links&lt;/h2&gt;
+&lt;p&gt;Occasionally, this blog may contain links to third-party websites. We are not responsible for the privacy practices or content of these external sites. We encourage you to review their privacy policies before providing any personal information.&lt;/p&gt;
+&lt;h2 id=&quot;6-changes-to-this-policy&quot;&gt;6. Changes to This Policy&lt;/h2&gt;
+&lt;p&gt;We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. We encourage you to periodically review this policy to stay informed about how we are protecting your information.&lt;/p&gt;
+&lt;h2 id=&quot;7-contact-information&quot;&gt;7. Contact Information&lt;/h2&gt;
+&lt;p&gt;If you have any questions or concerns about this Privacy Policy or your feedback, please feel free to &lt;a href=&quot;https://pawn002.github.io/blog-public/about/#contact-information&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;By using this blog, you acknowledge that you have read and understood this Privacy Policy and agree to its terms. Thank you for being a part of our community!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Blog Post Policy</title>
+    <link href="https://pawn002.github.io/blog-public/blog/post_policy/" />
+    <updated>2025-10-15T00:00:00Z</updated>
+    <id>https://pawn002.github.io/blog-public/blog/post_policy/</id>
+    <content type="html">&lt;p&gt;In launching this blog-portfolio hybrid, I aim to create a space where thoughtful discourse and practical insights on corporate communications can flourish. The ethical stance that guides this platform, rooted in pragmatic consequentialism, informs how I curate, update, and present content. Below is the revised policy that reflects this ethical framework alongside the latest guidance:&lt;/p&gt;
+&lt;h2 id=&quot;1-outcomes-matter&quot;&gt;1. Outcomes Matter&lt;/h2&gt;
+&lt;p&gt;Content on this blog will be developed and updated with a primary focus on outcomes. Each post aims not only to share information but to foster understanding, provoke thought, and stimulate constructive action. I will assess the implications of my posts, considering how they can serve the interests of my audience and the broader community.&lt;/p&gt;
+&lt;h2 id=&quot;2-epistemic-humility&quot;&gt;2. Epistemic Humility&lt;/h2&gt;
+&lt;p&gt;Recognizing the complexities of qualitative value, I commit to maintaining epistemic humility. I acknowledge that measuring value can be subjective and nuanced, and I will strive to present information that reflects this complexity. Feedback from my audience will be welcomed and considered to enhance the quality and relevance of the content.&lt;/p&gt;
+&lt;h2 id=&quot;3-negotiated-social-contracts&quot;&gt;3. Negotiated Social Contracts&lt;/h2&gt;
+&lt;p&gt;I treat formal ethical frameworks as negotiated social contracts rather than absolute constraints. This means that the ethical guidelines I follow will be subject to adaptation based on context and community standards. Ongoing dialogue with readers will be essential to reassess these frameworks and ensure they align with collective priorities and values.&lt;/p&gt;
+&lt;h2 id=&quot;4-personal-moral-discretion&quot;&gt;4. Personal Moral Discretion&lt;/h2&gt;
+&lt;p&gt;In instances where external ethical standards diverge from my priorities, I reserve the right to exercise personal moral discretion. This allows me to stay true to my principles while adapting content to remain relevant and impactful. Significant changes to content arising from this discretion will be communicated transparently to maintain trust with my audience.&lt;/p&gt;
+&lt;h2 id=&quot;5-content-updates-for-current-relevancy&quot;&gt;5. Content Updates for Current Relevancy&lt;/h2&gt;
+&lt;p&gt;Each post will be updated to ensure current relevance. An &amp;quot;edited&amp;quot; or &amp;quot;updated&amp;quot; caveat will be included prominently in the post rather than modifying the initial post date. To further clarify, these caveat dates will include specific timestamps to differentiate the original post date from the last update date.&lt;/p&gt;
+&lt;h2 id=&quot;6-reader-empowerment-and-feedback&quot;&gt;6. Reader Empowerment and Feedback&lt;/h2&gt;
+&lt;p&gt;Readers interested in previous iterations of a post will have access to my contact information to reach out. They are encouraged to provide feedback on revisions to the posts or this policy, and I will strive to address all input thoughtfully.&lt;/p&gt;
+&lt;h2 id=&quot;7-third-party-audits&quot;&gt;7. Third-Party Audits&lt;/h2&gt;
+&lt;p&gt;As time permits, I may reach out to peers to act as third-party auditors for this policy and the responses to feedback. Their insights will help ensure the integrity and effectiveness of the content and its updates.&lt;/p&gt;
+&lt;h2 id=&quot;8-dedicated-policy-post&quot;&gt;8. Dedicated Policy Post&lt;/h2&gt;
+&lt;p&gt;This policy, along with any future iterations or updates, will be presented as its own distinct post, allowing easy access for reference and discussion.&lt;/p&gt;
+&lt;h2 id=&quot;9-engagement-and-responsibility&quot;&gt;9. Engagement and Responsibility&lt;/h2&gt;
+&lt;p&gt;Reader engagement is vital to this platform. I encourage discussion, questions, and critiques to foster a rich dialogue that can lead to better outcomes. I am committed to responding to comments and maintaining a respectful environment for discourse.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;This blog-portfolio hybrid exemplifies my commitment to ethical content creation. By prioritizing meaningful outcomes, embracing humility, and being open to negotiation, I aim to contribute positively to conversations around corporate communications while remaining responsive to the needs and values of my audience. This policy will be reviewed periodically to ensure it stays aligned with evolving ethical standards and community expectations. Thank you for being part of this journey!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Blog Legal Disclaimer</title>
+    <link href="https://pawn002.github.io/blog-public/blog/legal_disclaimer/" />
+    <updated>2025-10-15T00:00:00Z</updated>
+    <id>https://pawn002.github.io/blog-public/blog/legal_disclaimer/</id>
+    <content type="html">&lt;p&gt;The content provided on this blog is for informational purposes only and does not constitute professional advice. While every effort is made to ensure the accuracy and reliability of the information presented, the author makes no warranties regarding its completeness or suitability for any particular purpose. Readers are encouraged to seek professional guidance for specific issues or decisions.&lt;/p&gt;
+&lt;p&gt;Any opinions expressed in this blog are those of the author and do not necessarily reflect the views of affiliated organizations or institutions. The author is not responsible for any loss or damage arising from reliance on the information contained herein.&lt;/p&gt;
+&lt;p&gt;Additionally, comments and discussions generated on this blog may contain views or opinions from third parties, which do not necessarily align with the author&#39;s perspectives.&lt;/p&gt;
+&lt;p&gt;By reading this blog, you acknowledge and accept these terms.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Good Day to All!</title>
-    <link href="https://example.com/blog-public/blog/firstpost/" />
+    <link href="https://pawn002.github.io/blog-public/blog/firstpost/" />
     <updated>2025-10-14T00:00:00Z</updated>
-    <id>https://example.com/blog-public/blog/firstpost/</id>
+    <id>https://pawn002.github.io/blog-public/blog/firstpost/</id>
     <content type="html">&lt;p&gt;Welcome the blog!&lt;/p&gt;
 &lt;p&gt;This site is very much under construction, so this post is a shortie.&lt;/p&gt;
 &lt;p&gt;There is a lot of upheaval across diverse domains right now. I find spaces like this present a rich opportunity space.&lt;/p&gt;

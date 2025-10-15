@@ -9,7 +9,8 @@
 		
 		
 		
-		<style>/* This is an arbitrary CSS string added to the bundle */
+		<style>
+			/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -138,6 +139,10 @@ main :first-child {
 
 header {
 	border-bottom: 1px dashed var(--color-gray-20);
+}
+
+footer {
+	border-top: 1px dashed var(--color-gray-20);
 }
 
 #skip-link {
@@ -308,7 +313,8 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
-}</style>
+}
+		</style>
 		
 	</head>
 	<body>
@@ -319,10 +325,18 @@ header {
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
 				<ul class="nav">
-					<li class="nav-item"><a href="/blog-public/" aria-current="page">Home</a></li>
-					<li class="nav-item"><a href="/blog-public/blog/">Archive</a></li>
-					<li class="nav-item"><a href="/blog-public/about/">About</a></li>
-					<li class="nav-item"><a href="/blog-public/feed/feed.xml">Feed</a></li>
+						<li class="nav-item">
+							<a href="/blog-public/" aria-current="page">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="/blog-public/blog/">Archive</a>
+						</li>
+						<li class="nav-item">
+							<a href="/blog-public/about/">About</a>
+						</li>
+						<li class="nav-item">
+							<a href="/blog-public/feed/feed.xml">Feed</a>
+						</li>
 				</ul>
 			</nav>
 		</header>
@@ -332,19 +346,29 @@ header {
 				
 
 
-<h1 id="latest-1-post">Latest 1 Post</h1>
+<h1 id="latest-3-posts">Latest 3 Posts</h1>
 
 
 
-<ol reversed="" class="postlist" style="--postlist-index: 2">
+<ol reversed="" class="postlist" style="--postlist-index: 6">
 	<li class="postlist-item">
-		<a href="/blog-public/blog/firstpost/" class="postlist-link">Good Day to All!</a>
-		<time class="postlist-date" datetime="2025-10-14">October 2025</time>
+		<a href="/blog-public/blog/accessibility_policy/" class="postlist-link">Blog Accessibility Policy</a>
+		<time class="postlist-date" datetime="2025-10-16">October 2025</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/blog-public/blog/privacy_policy/" class="postlist-link">Blog Privacy Policy</a>
+		<time class="postlist-date" datetime="2025-10-15">October 2025</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/blog-public/blog/post_policy/" class="postlist-link">Blog Post Policy</a>
+		<time class="postlist-date" datetime="2025-10-15">October 2025</time>
 	</li>
 </ol>
 
 
 
+
+<p>2 more posts can be found in <a href="/blog-public/blog/">the archive</a>.</p>
 
 
 
@@ -355,12 +379,27 @@ header {
 		</main>
 
 		<footer>
-			<p>
-				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em>
-			</p>
+
+			
+
+			<ul>
+				<li>
+					<a href="/blog-public/blog/legal_disclaimer/">Legal Disclaimer</a>
+				</li>
+				<li>
+					<a href="/blog-public/blog/accessibility_policy/">Accessibility Policy</a>
+				</li>
+				<li>
+					<a href="/blog-public/blog/post_policy/">Post Policy</a>
+				</li>
+				<li>
+					<a href="/blog-public/blog/privacy_policy/">Privacy Policy</a>
+				</li>
+
+			</ul>
 		</footer>
 
-		<!-- This page `/` was built on 2025-10-14T20:09:17.876Z -->
+		<!-- This page `/` was built on 2025-10-15T21:14:56.461Z -->
 		<script type="module" src="/blog-public/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
