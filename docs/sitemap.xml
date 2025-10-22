@@ -59,15 +59,29 @@
 	
 		
 		<url>
-			<loc>/blog-public/feed/feed.xml</loc>
-			<lastmod>2025-10-15</lastmod>
+			<loc>/blog-public/blog/accessibility_policy/</loc>
+			<lastmod>2025-10-16</lastmod>
 		</url>
 	
 	
 		
 		<url>
-			<loc>/blog-public/blog/accessibility_policy/</loc>
-			<lastmod>2025-10-16</lastmod>
+			<loc>/blog-public/blog/organizational_disclaimer/</loc>
+			<lastmod>2025-10-21</lastmod>
+		</url>
+	
+	
+		
+		<url>
+			<loc>/blog-public/blog/my_ethical_stance/</loc>
+			<lastmod>2025-10-22</lastmod>
+		</url>
+	
+	
+		
+		<url>
+			<loc>/blog-public/feed/feed.xml</loc>
+			<lastmod>2025-10-22</lastmod>
 		</url>
 	
 </urlset>
