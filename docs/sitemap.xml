@@ -80,15 +80,22 @@
 	
 		
 		<url>
-			<loc>/blog-public/blog/building-whisper-transcription-app/</loc>
+			<loc>/blog-public/blog/building_whisper_transcription_app/</loc>
 			<lastmod>2025-11-19</lastmod>
 		</url>
 	
 	
 		
 		<url>
+			<loc>/blog-public/blog/working_with_creative_direction/</loc>
+			<lastmod>2025-11-22</lastmod>
+		</url>
+	
+	
+		
+		<url>
 			<loc>/blog-public/feed/feed.xml</loc>
-			<lastmod>2025-11-21</lastmod>
+			<lastmod>2025-11-22</lastmod>
 		</url>
 	
 </urlset>
