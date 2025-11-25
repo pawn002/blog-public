@@ -14,10 +14,10 @@
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono,
-		Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono,
-		Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New,
-		Courier, monospace;
+	--font-family-monospace:
+		Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console,
+		Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+		Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 /* Theme colors */
@@ -84,6 +84,11 @@ body {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
+}
+
+/* Utility classes */
+.min-text {
+	font-size: 0.875rem;
 }
 
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
@@ -297,6 +302,7 @@ header {
 	justify-content: center;
 	text-transform: capitalize;
 	font-style: italic;
+	font-size: 0.875rem;
 }
 .postlist-item > .post-tag {
 	align-self: center;
@@ -525,6 +531,9 @@ pre[class*="language-diff-"] {
 			<a href="/blog-public/tags/portfolio/" class="post-tag">Portfolio</a>, 
 		</li>
 		<li>
+			<a href="/blog-public/tags/accessibility/" class="post-tag">Accessibility</a>, 
+		</li>
+		<li>
 			<a href="/blog-public/tags/inclusive-design/" class="post-tag">Inclusive-Design</a>, 
 		</li>
 		<li>
@@ -555,7 +564,9 @@ pre[class*="language-diff-"] {
 
 <hr>
 
+<div class="min-text">
 <p><em>Effective Date: 16 October 2025</em></p>
+</div>
 <p>At pawn002 Blog, we are committed to ensuring that our website is accessible to all users, regardless of their abilities or disabilities. We strive to create an inclusive online environment and take the following measures to enhance accessibility:</p>
 <h2 id="1-commitment-to-accessibility">1. Commitment to Accessibility</h2>
 <p>We believe that everyone should have equal access to information and services provided on our blog. We have made extensive efforts to ensure that our website meets the standards set forth by the Web Content Accessibility Guidelines (WCAG) 2.1 at level AA.</p>
@@ -605,7 +616,7 @@ pre[class*="language-diff-"] {
 			</ul>
 		</footer>
 
-		<!-- This page `/blog/accessibility_policy/` was built on 2025-11-22T14:09:32.354Z -->
+		<!-- This page `/blog/accessibility_policy/` was built on 2025-11-25T03:28:08.631Z -->
 		<script type="module" src="/blog-public/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

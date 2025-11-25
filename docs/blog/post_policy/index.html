@@ -14,10 +14,10 @@
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono,
-		Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono,
-		Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New,
-		Courier, monospace;
+	--font-family-monospace:
+		Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console,
+		Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+		Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 /* Theme colors */
@@ -84,6 +84,11 @@ body {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
+}
+
+/* Utility classes */
+.min-text {
+	font-size: 0.875rem;
 }
 
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
@@ -297,6 +302,7 @@ header {
 	justify-content: center;
 	text-transform: capitalize;
 	font-style: italic;
+	font-size: 0.875rem;
 }
 .postlist-item > .post-tag {
 	align-self: center;
@@ -540,7 +546,9 @@ pre[class*="language-diff-"] {
 
 <hr>
 
+<div class="min-text">
 <p><em>Updated: 21 October 2025</em></p>
+</div>
 <p>In launching this blog-portfolio hybrid, I aim to create a space where thoughtful discourse and practical insights on corporate communications can flourish. The ethical stance that guides this platform, rooted in pragmatic consequentialism, informs how I curate, update, and present content. Below is the revised policy that reflects this ethical framework alongside the latest guidance:</p>
 <h2 id="1-outcomes-matter">1. Outcomes Matter</h2>
 <p>Content on this blog will be developed and updated with a primary focus on outcomes. Each post aims not only to share information but to foster understanding, provoke thought, and stimulate constructive action. I will assess the implications of my posts, considering how they can serve the interests of my audience and the broader community.</p>
@@ -591,7 +599,7 @@ pre[class*="language-diff-"] {
 			</ul>
 		</footer>
 
-		<!-- This page `/blog/post_policy/` was built on 2025-11-22T14:09:32.354Z -->
+		<!-- This page `/blog/post_policy/` was built on 2025-11-25T03:28:08.632Z -->
 		<script type="module" src="/blog-public/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

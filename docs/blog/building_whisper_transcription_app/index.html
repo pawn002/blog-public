@@ -14,10 +14,10 @@
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono,
-		Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono,
-		Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New,
-		Courier, monospace;
+	--font-family-monospace:
+		Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console,
+		Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+		Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 /* Theme colors */
@@ -84,6 +84,11 @@ body {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
+}
+
+/* Utility classes */
+.min-text {
+	font-size: 0.875rem;
 }
 
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
@@ -297,6 +302,7 @@ header {
 	justify-content: center;
 	text-transform: capitalize;
 	font-style: italic;
+	font-size: 0.875rem;
 }
 .postlist-item > .post-tag {
 	align-self: center;
@@ -525,10 +531,16 @@ pre[class*="language-diff-"] {
 			<a href="/blog-public/tags/portfolio/" class="post-tag">Portfolio</a>, 
 		</li>
 		<li>
+			<a href="/blog-public/tags/accessibility/" class="post-tag">Accessibility</a>, 
+		</li>
+		<li>
 			<a href="/blog-public/tags/ethical-ai/" class="post-tag">Ethical-AI</a>, 
 		</li>
 		<li>
 			<a href="/blog-public/tags/inclusive-design/" class="post-tag">Inclusive-Design</a>, 
+		</li>
+		<li>
+			<a href="/blog-public/tags/product-development/" class="post-tag">Product-Development</a>, 
 		</li>
 		<li>
 			<a href="/blog-public/tags/design-strategy/" class="post-tag">Design-Strategy</a>, 
@@ -643,7 +655,7 @@ Collaborating with Claude Code accelerated development but created architectural
 			</ul>
 		</footer>
 
-		<!-- This page `/blog/building_whisper_transcription_app/` was built on 2025-11-22T14:09:32.354Z -->
+		<!-- This page `/blog/building_whisper_transcription_app/` was built on 2025-11-25T03:28:08.631Z -->
 		<script type="module" src="/blog-public/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

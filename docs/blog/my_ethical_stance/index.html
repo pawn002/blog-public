@@ -14,10 +14,10 @@
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono,
-		Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono,
-		Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New,
-		Courier, monospace;
+	--font-family-monospace:
+		Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console,
+		Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+		Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 /* Theme colors */
@@ -84,6 +84,11 @@ body {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
+}
+
+/* Utility classes */
+.min-text {
+	font-size: 0.875rem;
 }
 
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
@@ -297,6 +302,7 @@ header {
 	justify-content: center;
 	text-transform: capitalize;
 	font-style: italic;
+	font-size: 0.875rem;
 }
 .postlist-item > .post-tag {
 	align-self: center;
@@ -567,9 +573,11 @@ pre[class*="language-diff-"] {
 
 <hr>
 
-<p>IMPORTANT: Before proceeding, please be sure to read this post's
+<div class="min-text">
+<p><strong>Disclaimer:</strong> Before proceeding, please be sure to read this post's
 <a href="/blog-public/blog/legal_disclaimer/">Legal Disclaimer</a>, and
 <a href="/blog-public/blog/organizational_disclaimer">Organizational Disclaimer</a>.</p>
+</div>
 <h2 id="executive-summary">Executive Summary</h2>
 <p>Leading as an Ethical Systems Designer and modeling Applied Philosophy in Design, I cultivate an ethic that focuses on outcomes while remaining humble on measuring qualitative value. This approach enables me to build and lead cross-disciplinary teams that turn accessible, ethically-grounded design and systems thinking into faster iteration, and safer products. Along the way, I provide decision infrastructure that lets decision makers quickly make defensible trade-offs while also multiplying organizational talent so organizations can retain cross-functional practitioners that ship responsibly without slowing innovation.</p>
 <h2 id="ethical-systems-design">Ethical Systems Design</h2>
@@ -660,7 +668,7 @@ pre[class*="language-diff-"] {
 			</ul>
 		</footer>
 
-		<!-- This page `/blog/my_ethical_stance/` was built on 2025-11-22T14:09:32.354Z -->
+		<!-- This page `/blog/my_ethical_stance/` was built on 2025-11-25T03:28:08.631Z -->
 		<script type="module" src="/blog-public/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

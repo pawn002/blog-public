@@ -14,10 +14,10 @@
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono,
-		Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono,
-		Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New,
-		Courier, monospace;
+	--font-family-monospace:
+		Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console,
+		Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+		Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 /* Theme colors */
@@ -84,6 +84,11 @@ body {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
+}
+
+/* Utility classes */
+.min-text {
+	font-size: 0.875rem;
 }
 
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
@@ -297,6 +302,7 @@ header {
 	justify-content: center;
 	text-transform: capitalize;
 	font-style: italic;
+	font-size: 0.875rem;
 }
 .postlist-item > .post-tag {
 	align-self: center;
@@ -348,7 +354,11 @@ header {
 <h1 id="tagged-accountability">Tagged “Accountability”</h1>
 
 
-<ol reversed="" class="postlist" style="--postlist-index: 9">
+<ol reversed="" class="postlist" style="--postlist-index: 10">
+	<li class="postlist-item">
+		<a href="/blog-public/blog/contrast_chaser_zero/" class="postlist-link">Contrast Chaser Zero: From Personal Frustration to Product</a>
+		<time class="postlist-date" datetime="2025-11-25">November 2025</time>
+	</li>
 	<li class="postlist-item">
 		<a href="/blog-public/blog/working_with_creative_direction/" class="postlist-link">Working With Creative Direction</a>
 		<time class="postlist-date" datetime="2025-11-22">November 2025</time>
@@ -414,7 +424,7 @@ header {
 			</ul>
 		</footer>
 
-		<!-- This page `/tags/accountability/` was built on 2025-11-22T14:09:32.448Z -->
+		<!-- This page `/tags/accountability/` was built on 2025-11-25T03:28:08.731Z -->
 		<script type="module" src="/blog-public/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

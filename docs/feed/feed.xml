@@ -5,11 +5,114 @@
   <subtitle>Design integration, accessibility advocacy, and ethical AI strategy</subtitle>
   <link href="https://pawn002.github.io/blog-public/feed/feed.xml" rel="self" />
   <link href="https://pawn002.github.io/blog-public/blog-public/" />
-  <updated>2025-11-22T00:00:00Z</updated>
+  <updated>2025-11-25T00:00:00Z</updated>
   <id>https://pawn002.github.io/blog-public/blog-public/</id>
   <author>
     <name>John Rioflorido</name>
   </author>
+  <entry>
+    <title>Contrast Chaser Zero: From Personal Frustration to Product</title>
+    <link href="https://pawn002.github.io/blog-public/blog/contrast_chaser_zero/" />
+    <updated>2025-11-25T00:00:00Z</updated>
+    <id>https://pawn002.github.io/blog-public/blog/contrast_chaser_zero/</id>
+    <content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://pawn002.github.io/blog-public/img/oDmhy9L-X--400.avif 400w, https://pawn002.github.io/blog-public/img/oDmhy9L-X--800.avif 800w, https://pawn002.github.io/blog-public/img/oDmhy9L-X--1536.avif 1536w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://pawn002.github.io/blog-public/img/oDmhy9L-X--400.webp 400w, https://pawn002.github.io/blog-public/img/oDmhy9L-X--800.webp 800w, https://pawn002.github.io/blog-public/img/oDmhy9L-X--1536.webp 1536w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://pawn002.github.io/blog-public/blog/contrast_chaser_zero/content/img/oDmhy9L-X--400.png&quot; alt=&quot;Data visualization showing accessibility metrics with an accessibility icon, trending graph, gauge chart, and bar chart in shades of blue and orange on a dark background&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; width=&quot;1536&quot; height=&quot;1024&quot; srcset=&quot;https://pawn002.github.io/blog-public/img/oDmhy9L-X--400.png 400w, https://pawn002.github.io/blog-public/img/oDmhy9L-X--800.png 800w, https://pawn002.github.io/blog-public/img/oDmhy9L-X--1536.png 1536w&quot; sizes=&quot;100vw&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;div class=&quot;min-text&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; Contrast Chaser was developed as part of my U.S. federal government employment. The tool, its development, and associated intellectual property are the property of the U.S. government. This case study describes my role as lead product manager, designer, developer, and user researcher on the project, documenting general product development principles and my professional contributions. No proprietary, classified, or sensitive government information is disclosed. References to adoption and usage reflect the tool&#39;s role in supporting government accessibility compliance efforts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;executive-summary&quot;&gt;Executive Summary&lt;/h2&gt;
+&lt;p&gt;When new accessibility requirements emerged, they broke my design workflow. Rather than accepting a slower process, I applied &lt;strong&gt;product development fundamentals&lt;/strong&gt;—&lt;strong&gt;problem identification&lt;/strong&gt;, &lt;strong&gt;market research&lt;/strong&gt;, &lt;strong&gt;ideation&lt;/strong&gt;, &lt;strong&gt;prototyping&lt;/strong&gt;, and &lt;strong&gt;user validation&lt;/strong&gt;—to build Contrast Chaser, a tool that measures contrast and provides solutions in a single interface. This case study documents how systematic research and iteration produced the initial &lt;strong&gt;minimum viable product (MVP)&lt;/strong&gt;, demonstrating that product thinking applies whether you&#39;re building for commercial markets or internal organizational needs.&lt;/p&gt;
+&lt;h2 id=&quot;problem-identification&quot;&gt;Problem Identification&lt;/h2&gt;
+&lt;p&gt;Contrast Chaser was born from good intention and personal frustration.&lt;/p&gt;
+&lt;p&gt;As a senior cartographer specializing in map-based visualizations, I was considered a corporate resource on visual design. When my office began an ad hoc effort to improve accessibility, everything changed. The Web Content Accessibility Guidelines (WCAG) contrast requirements—with their objective measurements—essentially invalidated most of what was considered &amp;quot;good design&amp;quot; at the time.&lt;/p&gt;
+&lt;p&gt;The existing practice of creating a design, testing it for contrast, then adjusting colors was far too slow to meet production output needs. Traditional tools operated on a pass/fail binary: they measured contrast, told designers they had failed, then left them to figure out solutions on their own.&lt;/p&gt;
+&lt;p&gt;This experience led to a clear &lt;strong&gt;problem statement&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Accessible contrast testing is too slow.&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Effective &lt;strong&gt;problem identification&lt;/strong&gt; requires more than recognizing frustration—it requires articulating a gap between current state and desired state that a product can close. The problem wasn&#39;t accessibility itself; it was the friction accessibility introduced into creative workflows.&lt;/p&gt;
+&lt;h2 id=&quot;market-research-and-user-needs&quot;&gt;Market Research and User Needs&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Ideating&lt;/strong&gt; about the needs of visualization producers like myself, I identified two core jobs-to-be-done:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Measure contrast&lt;/li&gt;
+&lt;li&gt;Find a new color that meets contrast requirements when the current color fails&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Conducting initial &lt;strong&gt;market research&lt;/strong&gt; through interviews with colleagues facing the same problem validated several personal needs while revealing additional &lt;strong&gt;user requirements&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preference for familiar interface patterns&lt;/li&gt;
+&lt;li&gt;Need to understand &lt;em&gt;why&lt;/em&gt; existing colors don&#39;t pass&lt;/li&gt;
+&lt;li&gt;Desire for actionable alternatives rather than just failure messages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This research phase—informal but structured—distinguished assumptions from validated needs. The insight that users wanted understanding, not just compliance, shaped the product&#39;s eventual direction toward education as well as utility.&lt;/p&gt;
+&lt;h2 id=&quot;prototyping-research-through-building&quot;&gt;Prototyping: Research Through Building&lt;/h2&gt;
+&lt;p&gt;Because this was a passion project without immediate commercial goals, formal &lt;strong&gt;product roadmap planning&lt;/strong&gt; with market milestones could be abbreviated. Instead, attention focused on &lt;strong&gt;prototyping&lt;/strong&gt;—the creation of working models to test specific hypotheses.&lt;/p&gt;
+&lt;p&gt;Several prototypes addressed different aspects of the eventual &lt;strong&gt;MVP&lt;/strong&gt;:&lt;/p&gt;
+&lt;h3 id=&quot;grey-getter-user-experience-validation&quot;&gt;Grey Getter: User Experience Validation&lt;/h3&gt;
+&lt;img src=&quot;https://pawn002.github.io/blog-public/img/figure_1_greyGetter.gif&quot; alt=&quot;Grey Getter interface showing color input fields, contrast options, and a visualization that updates based on user choices&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+&lt;p&gt;Grey Getter served as a &lt;strong&gt;proof of concept&lt;/strong&gt; validating the core user experience. It established that users could work with an interface allowing color input, contrast ratio selection, and dynamic visualization updates. This prototype answered: &lt;em&gt;Can the basic interaction model work?&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&quot;color-blind-color-schemes-understanding-success-factors&quot;&gt;Color Blind Color Schemes: Understanding Success Factors&lt;/h3&gt;
+&lt;img src=&quot;https://pawn002.github.io/blog-public/img/figure_2_colorBlindColorSchemes.gif&quot; alt=&quot;Color Blind Color Schemes visualization showing hue, lightness, and saturation represented as circle size, revealing patterns in accessible color combinations&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+&lt;p&gt;Color Blind Color Schemes explored which aspects of color explained why certain combinations succeed for users with vision disabilities. By visualizing hue, lightness, and saturation together, this prototype generated &lt;strong&gt;design insights&lt;/strong&gt; about accessible color relationships that would inform the algorithm&#39;s recommendations.&lt;/p&gt;
+&lt;h3 id=&quot;color-contrast-trends-edge-case-identification&quot;&gt;Color Contrast Trends: Edge Case Identification&lt;/h3&gt;
+&lt;img src=&quot;https://pawn002.github.io/blog-public/img/figure_3_colorContrastTrends.gif&quot; alt=&quot;Color Contrast Trends scatterplot showing patterns specific to certain contrast ratios, identifying design limits the application must handle&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+&lt;p&gt;Color Contrast Trends researched color patterns specific to certain contrast ratios. These patterns represented &lt;strong&gt;design constraints&lt;/strong&gt;—limits that any production tool must handle gracefully. Understanding edge cases before building prevents user frustration with unexpected failures.&lt;/p&gt;
+&lt;h2 id=&quot;mvp-development-synthesis-and-release&quot;&gt;MVP Development: Synthesis and Release&lt;/h2&gt;
+&lt;p&gt;Combining validated learnings from each prototype, Contrast Chaser&#39;s &lt;strong&gt;minimum viable product&lt;/strong&gt; took shape.&lt;/p&gt;
+&lt;img src=&quot;https://pawn002.github.io/blog-public/img/figure_4_contrastChaserZero.gif&quot; alt=&quot;Contrast Chaser Zero interface combining color input, contrast measurement, and accessible color alternatives in a single application&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+&lt;p&gt;Contrast Chaser Zero synthesized:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The validated interaction model from Grey Getter&lt;/li&gt;
+&lt;li&gt;The color relationship research from Color Blind Color Schemes&lt;/li&gt;
+&lt;li&gt;The edge case handling from Color Contrast Trends&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The result: an application that measures contrast success while providing users intuitive alternatives to keep their designs moving forward.&lt;/p&gt;
+&lt;p&gt;This MVP was released to the workforce as a &lt;strong&gt;usable beta&lt;/strong&gt; with explicit expectations: users would test the concept and provide feedback. The goal was learning, not perfection.&lt;/p&gt;
+&lt;h2 id=&quot;user-feedback-and-iteration&quot;&gt;User Feedback and Iteration&lt;/h2&gt;
+&lt;p&gt;While all feedback was recorded for later action—representing diverse &lt;strong&gt;pain points&lt;/strong&gt; across the product—one issue dominated:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;It&#39;s too hard to input colors into the application!&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The solution was straightforward: an eyedropper feature similar to standard design tools. However, browser support for the EyeDropper API didn&#39;t exist yet.&lt;/p&gt;
+&lt;p&gt;This gap between &lt;strong&gt;identified solution&lt;/strong&gt; and &lt;strong&gt;technical feasibility&lt;/strong&gt; required a two-track response:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Near-term&lt;/strong&gt;: User training specific to common workflows provided relief&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Long-term&lt;/strong&gt;: Anticipatory &lt;strong&gt;ideation, research, and planning&lt;/strong&gt; prepared the eyedropper feature for rapid deployment once browser support arrived&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When browsers finally added support, the prepared work paid off. The feature launched in hours rather than weeks. The Monday following a Friday afternoon deployment brought genuine user excitement—validation that the &lt;strong&gt;iterative development&lt;/strong&gt; approach worked.&lt;/p&gt;
+&lt;h2 id=&quot;from-mvp-to-product&quot;&gt;From MVP to Product&lt;/h2&gt;
+&lt;p&gt;Typical steps following an MVP&#39;s graduation into an official product include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sourcing&lt;/strong&gt;: Identifying suppliers and resources&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Costing&lt;/strong&gt;: Establishing financial models&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commercialization&lt;/strong&gt;: Scaling and revenue generation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In a government context, these steps were reinterpreted:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identifying maintenance barriers&lt;/li&gt;
+&lt;li&gt;Working within taxpayer-funded IT constraints&lt;/li&gt;
+&lt;li&gt;Generating continuing mission impact&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The underlying &lt;strong&gt;product lifecycle&lt;/strong&gt; principles remained constant even as their application differed from private industry norms. Products require sustainable infrastructure, understood costs, and clear value propositions regardless of whether revenue or mission defines success.&lt;/p&gt;
+&lt;h2 id=&quot;outcomes-and-organizational-impact&quot;&gt;Outcomes and Organizational Impact&lt;/h2&gt;
+&lt;p&gt;Today Contrast Chaser enjoys wide usage across government, enabling visualization producers to create inclusive media efficiently. The tool has become central to communicating official accessibility policies across multiple agencies.&lt;/p&gt;
+&lt;p&gt;Beyond the product itself, I now lead an independent Contrast Chaser team that operates with management confidence in autonomous &lt;strong&gt;product management&lt;/strong&gt;. This trust emerged from demonstrated success: initial development that addressed real user needs, consistent &lt;strong&gt;user advocacy&lt;/strong&gt;, and a track record of delivering value.&lt;/p&gt;
+&lt;p&gt;The project demonstrates that &lt;strong&gt;product development methodology&lt;/strong&gt; applies beyond commercial contexts. Government, nonprofit, and internal tooling all benefit from:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Systematic problem identification&lt;/li&gt;
+&lt;li&gt;User research before building&lt;/li&gt;
+&lt;li&gt;Prototyping to validate hypotheses&lt;/li&gt;
+&lt;li&gt;MVP releases for rapid learning&lt;/li&gt;
+&lt;li&gt;Iterative improvement based on feedback&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;lessons-in-product-development&quot;&gt;Lessons in Product Development&lt;/h2&gt;
+&lt;p&gt;Contrast Chaser Zero illustrates several product development principles:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Start with the problem, not the solution.&lt;/strong&gt; The initial insight wasn&#39;t &amp;quot;build a color tool&amp;quot;—it was &amp;quot;accessible contrast testing is too slow.&amp;quot; Framing the problem correctly enabled better solutions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Validate assumptions through research.&lt;/strong&gt; Interviewing colleagues revealed needs beyond my own assumptions. Users wanted understanding, not just pass/fail verdicts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Prototype to learn, not to ship.&lt;/strong&gt; Each prototype tested specific hypotheses. Grey Getter validated interaction models. Color Blind Color Schemes generated algorithmic insights. Color Contrast Trends identified edge cases. None were intended as final products.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Release MVPs for feedback, not applause.&lt;/strong&gt; Shipping an imperfect but usable beta generated the insight that color input was the primary pain point—something not predicted during development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Prepare for opportunities.&lt;/strong&gt; Anticipating browser support for the EyeDropper API meant the feature deployed in hours when the opportunity arrived. Strategic foresight enables tactical speed.&lt;/p&gt;
+&lt;p&gt;Whether building for commercial markets or internal organizational needs, these fundamentals produce better outcomes than intuition alone.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Working With Creative Direction</title>
     <link href="https://pawn002.github.io/blog-public/blog/working_with_creative_direction/" />
@@ -123,9 +226,11 @@ Collaborating with Claude Code accelerated development but created architectural
     <link href="https://pawn002.github.io/blog-public/blog/my_ethical_stance/" />
     <updated>2025-10-22T00:00:00Z</updated>
     <id>https://pawn002.github.io/blog-public/blog/my_ethical_stance/</id>
-    <content type="html">&lt;p&gt;IMPORTANT: Before proceeding, please be sure to read this post&#39;s
+    <content type="html">&lt;div class=&quot;min-text&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; Before proceeding, please be sure to read this post&#39;s
 &lt;a href=&quot;https://pawn002.github.io/blog-public/blog/legal_disclaimer/&quot;&gt;Legal Disclaimer&lt;/a&gt;, and
 &lt;a href=&quot;https://pawn002.github.io/blog-public/blog/organizational_disclaimer&quot;&gt;Organizational Disclaimer&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;executive-summary&quot;&gt;Executive Summary&lt;/h2&gt;
 &lt;p&gt;Leading as an Ethical Systems Designer and modeling Applied Philosophy in Design, I cultivate an ethic that focuses on outcomes while remaining humble on measuring qualitative value. This approach enables me to build and lead cross-disciplinary teams that turn accessible, ethically-grounded design and systems thinking into faster iteration, and safer products. Along the way, I provide decision infrastructure that lets decision makers quickly make defensible trade-offs while also multiplying organizational talent so organizations can retain cross-functional practitioners that ship responsibly without slowing innovation.&lt;/p&gt;
 &lt;h2 id=&quot;ethical-systems-design&quot;&gt;Ethical Systems Design&lt;/h2&gt;
@@ -229,7 +334,9 @@ Collaborating with Claude Code accelerated development but created architectural
     <link href="https://pawn002.github.io/blog-public/blog/accessibility_policy/" />
     <updated>2025-10-16T00:00:00Z</updated>
     <id>https://pawn002.github.io/blog-public/blog/accessibility_policy/</id>
-    <content type="html">&lt;p&gt;&lt;em&gt;Effective Date: 16 October 2025&lt;/em&gt;&lt;/p&gt;
+    <content type="html">&lt;div class=&quot;min-text&quot;&gt;
+&lt;p&gt;&lt;em&gt;Effective Date: 16 October 2025&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;At pawn002 Blog, we are committed to ensuring that our website is accessible to all users, regardless of their abilities or disabilities. We strive to create an inclusive online environment and take the following measures to enhance accessibility:&lt;/p&gt;
 &lt;h2 id=&quot;1-commitment-to-accessibility&quot;&gt;1. Commitment to Accessibility&lt;/h2&gt;
 &lt;p&gt;We believe that everyone should have equal access to information and services provided on our blog. We have made extensive efforts to ensure that our website meets the standards set forth by the Web Content Accessibility Guidelines (WCAG) 2.1 at level AA.&lt;/p&gt;
@@ -255,7 +362,9 @@ Collaborating with Claude Code accelerated development but created architectural
     <link href="https://pawn002.github.io/blog-public/blog/privacy_policy/" />
     <updated>2025-10-15T00:00:00Z</updated>
     <id>https://pawn002.github.io/blog-public/blog/privacy_policy/</id>
-    <content type="html">&lt;p&gt;&lt;em&gt;Effective Date: 15 October 2025&lt;/em&gt;&lt;/p&gt;
+    <content type="html">&lt;div class=&quot;min-text&quot;&gt;
+&lt;p&gt;&lt;em&gt;Effective Date: 15 October 2025&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;This Privacy Policy outlines how we handle the information provided by readers of this blog. Your privacy is important, and we are committed to protecting any information you share with us.&lt;/p&gt;
 &lt;h2 id=&quot;1-information-we-collect&quot;&gt;1. Information We Collect&lt;/h2&gt;
 &lt;p&gt;The only information we collect is feedback from readers. This may include comments, suggestions, or any inquiries you choose to submit through the contact information provided. We do not collect personal data or actively track any user information.&lt;/p&gt;
@@ -280,7 +389,9 @@ Collaborating with Claude Code accelerated development but created architectural
     <link href="https://pawn002.github.io/blog-public/blog/post_policy/" />
     <updated>2025-10-15T00:00:00Z</updated>
     <id>https://pawn002.github.io/blog-public/blog/post_policy/</id>
-    <content type="html">&lt;p&gt;&lt;em&gt;Updated: 21 October 2025&lt;/em&gt;&lt;/p&gt;
+    <content type="html">&lt;div class=&quot;min-text&quot;&gt;
+&lt;p&gt;&lt;em&gt;Updated: 21 October 2025&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;In launching this blog-portfolio hybrid, I aim to create a space where thoughtful discourse and practical insights on corporate communications can flourish. The ethical stance that guides this platform, rooted in pragmatic consequentialism, informs how I curate, update, and present content. Below is the revised policy that reflects this ethical framework alongside the latest guidance:&lt;/p&gt;
 &lt;h2 id=&quot;1-outcomes-matter&quot;&gt;1. Outcomes Matter&lt;/h2&gt;
 &lt;p&gt;Content on this blog will be developed and updated with a primary focus on outcomes. Each post aims not only to share information but to foster understanding, provoke thought, and stimulate constructive action. I will assess the implications of my posts, considering how they can serve the interests of my audience and the broader community.&lt;/p&gt;
