@@ -16,6 +16,9 @@
 /* Candor design system fonts — latin subset only
  * @font-face declarations for self-hosted font files copied to /fonts/
  * Source packages: @fontsource-variable/*, @fontsource/atkinson-hyperlegible
+ *
+ * Note: this file is inlined into a <style> tag in base.njk via Nunjucks include,
+ * so url() targets must be path-prefix-aware. The `| url` filter handles that.
  */
 
 /* Roboto Flex Variable — UI text, headings (--font-sans) */
@@ -24,7 +27,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 1000;
-  src: url('/fonts/roboto-flex-latin-wght-normal.woff2') format('woff2-variations');
+  src: url('/blog-public/fonts/roboto-flex-latin-wght-normal.woff2') format('woff2-variations');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -34,7 +37,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 700;
-  src: url('/fonts/roboto-mono-latin-wght-normal.woff2') format('woff2-variations');
+  src: url('/blog-public/fonts/roboto-mono-latin-wght-normal.woff2') format('woff2-variations');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -44,7 +47,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
-  src: url('/fonts/noto-sans-latin-wght-normal.woff2') format('woff2-variations');
+  src: url('/blog-public/fonts/noto-sans-latin-wght-normal.woff2') format('woff2-variations');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -53,7 +56,7 @@
   font-style: italic;
   font-display: swap;
   font-weight: 100 900;
-  src: url('/fonts/noto-sans-latin-wght-italic.woff2') format('woff2-variations');
+  src: url('/blog-public/fonts/noto-sans-latin-wght-italic.woff2') format('woff2-variations');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -63,7 +66,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
-  src: url('/fonts/noto-serif-latin-wght-normal.woff2') format('woff2-variations');
+  src: url('/blog-public/fonts/noto-serif-latin-wght-normal.woff2') format('woff2-variations');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -72,7 +75,7 @@
   font-style: italic;
   font-display: swap;
   font-weight: 100 900;
-  src: url('/fonts/noto-serif-latin-wght-italic.woff2') format('woff2-variations');
+  src: url('/blog-public/fonts/noto-serif-latin-wght-italic.woff2') format('woff2-variations');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -82,7 +85,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url('/fonts/atkinson-hyperlegible-latin-400-normal.woff2') format('woff2');
+  src: url('/blog-public/fonts/atkinson-hyperlegible-latin-400-normal.woff2') format('woff2');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -91,7 +94,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url('/fonts/atkinson-hyperlegible-latin-700-normal.woff2') format('woff2');
+  src: url('/blog-public/fonts/atkinson-hyperlegible-latin-700-normal.woff2') format('woff2');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 /* Candor Design System — blog post listing styles
@@ -966,7 +969,28 @@ img.post-card__image {
 
 <ul class="post-list" role="list">
 	<li>
-		<article class="post-card post-card--featured" aria-label="Hot Pink Passes WCAG. That&#39;s the Problem.">
+		<article class="post-card post-card--featured" aria-label="Where the Training Data Runs Out: Why Domain CLIs Need a Playbook">
+				<a class="post-card__image-link" href="/blog-public/blog/domain-cli-playbook/" tabindex="-1" aria-hidden="true">
+					<img class="post-card__image" src="/blog-public/img/domain_cli_playbook_hero.png" alt="" loading="lazy" decoding="async">
+				</a>
+			<div class="post-card__body">
+					<div class="post-card__tags">
+							<span class="post-card__tag">AI-Safety</span>
+							<span class="post-card__tag">Systems-Integration</span>
+							<span class="post-card__tag">Standards-Governance</span>
+					</div>
+				<h2 class="post-card__title" id="where-the-training-data-runs-out-why-domain-clis-need-a-playbook">
+					<a href="/blog-public/blog/domain-cli-playbook/">Where the Training Data Runs Out: Why Domain CLIs Need a Playbook</a>
+				</h2>
+					<p class="post-card__excerpt">The CLI-vs-MCP debate has covered tools the model already knows. It hasn&#39;t covered the harder case: agents needing domain expertise the model lacks. A domain CLI paired with a workflow playbook puts practitioner judgment — the kind the model can&#39;t generate on its own — into the agent&#39;s loop. The architecture is also a governance question: whose expertise travels through your tool.</p>
+				<div class="post-card__meta">
+					<time datetime="2026-05-08">May 2026</time>
+				</div>
+			</div>
+		</article>
+	</li>
+	<li>
+		<article class="post-card" aria-label="Hot Pink Passes WCAG. That&#39;s the Problem.">
 				<a class="post-card__image-link" href="/blog-public/blog/okca-algorithm/" tabindex="-1" aria-hidden="true">
 					<img class="post-card__image" src="/blog-public/img/okca_algorithm_hero.png" alt="" loading="lazy" decoding="async">
 				</a>
@@ -1051,7 +1075,7 @@ img.post-card__image {
 			</ul>
 		</footer>
 
-		<!-- This page `/tags/open-source/` was built on 2026-05-06T10:15:32.032Z -->
+		<!-- This page `/tags/open-source/` was built on 2026-05-09T13:56:35.545Z -->
 		<script type="module" src="/blog-public/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
