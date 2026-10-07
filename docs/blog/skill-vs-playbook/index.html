@@ -1377,6 +1377,7 @@ pre[class*="language-diff-"] {
 <p>On a task asking for a dark-mode version of a brand blue, the pointer agents desaturated the blue and presented it as settled, though the playbook says that tradeoff is a design decision for a person to make. The agents with the skill, and the agents with no guidance at all, asked for sign-off. The eval also caught a false pass in klar itself: a color reported as meeting WCAG's 4.5:1 color contrast minimum that falls just short, the kind of error klar exists to catch.</p>
 <p>If you rely on written instructions for human oversight of your agents, check the transcripts to find out whether the agents read them, because a capable model's output looks finished either way. Guidance that carries a standard also has to say whose standard wins: on my own design system, the skill klar now ships could send agents to WCAG's flat minimums where the project requires stricter ones.</p>
 </div>
+<hr>
 <h2 id="introduction">Introduction</h2>
 <p>In May I published <a href="https://pawn002.github.io/blog-public/blog/domain-cli-playbook/"><em>Where the Training Data Runs Out</em></a>, an argument that when an AI agent needs expertise its model doesn't have, you should give it a tool and a playbook: written workflows that carry a practitioner's judgment into the agent's loop. In that post I said the playbook &quot;actually got read.&quot; I believed it.</p>
 <p>Over the summer, something nagged at me. <a href="https://github.com/pawn002/klar">klar</a>, the color accessibility tool that grew out of that work, was in most of my projects, with a short note in each project's instructions telling the agent to read klar's playbook first. The agents used klar. They got answers. But the work didn't look like the playbook. I never saw an exit code come up, though klar's exit codes are how it says a &quot;fix&quot; failed. Nobody ever told me how far apart two colors were in ΔE, the measurement the playbook is built around: a standard score for how different two colors look to someone with typical color vision. And when dark mode broke a color, blue especially, the suggested fix was usually a large change in chroma, roughly a color's saturation, that read like color science the model already knew, not something it had stepped toward with klar.</p>
@@ -1509,7 +1510,7 @@ pre[class*="language-diff-"] {
 			</ul>
 		</footer>
 
-		<!-- This page `/blog/skill-vs-playbook/` was built on 2026-10-07T10:28:40.390Z -->
+		<!-- This page `/blog/skill-vs-playbook/` was built on 2026-10-07T11:39:34.023Z -->
 		<script type="module" src="/blog-public/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
