@@ -362,15 +362,6 @@ body {
 	width: 1px;
 }
 
-/* Utility classes */
-.min-text {
-	font-size: var(--text-sm);
-}
-
-.article .min-text {
-	margin-bottom: var(--spacing-xl);
-}
-
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
 img {
 	max-width: 100%;
@@ -847,6 +838,17 @@ img.post-card__image {
 	letter-spacing: 0.03em;
 }
 
+/* Post notice — update, disclaimer or policy date above the body. House style in CLAUDE.md */
+.article .post-notice {
+	margin-block: var(--spacing-md) var(--spacing-xl);
+}
+.article .post-notice p {
+	font-family: var(--font-family-accessible);
+	font-size: var(--font-size-sm);
+	letter-spacing: 0.03em;
+	color: var(--color-text-subtle);
+}
+
 /* Screenshot figure — bordered container for before/after screenshot pairs in articles */
 .screenshot-figure {
 	margin: var(--spacing-xl) 0;
@@ -1321,7 +1323,7 @@ img.post-card__image {
 			</ul>
 		</footer>
 
-		<!-- This page `/tags/interdisciplinary-research/` was built on 2026-10-27T11:46:09.062Z -->
+		<!-- This page `/tags/interdisciplinary-research/` was built on 2026-11-19T03:27:33.616Z -->
 		<script type="module" src="/blog-public/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
